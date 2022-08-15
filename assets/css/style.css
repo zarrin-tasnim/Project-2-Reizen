@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 100%;
+}
+
 img {
     max-width: 100%;
     vertical-align: middle;
@@ -27,7 +31,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.4rem;
+    font-size: 3rem;
 }
 
 h3 {
@@ -94,6 +98,10 @@ ul {
     height: 80vh !important;
 }
 
+.h-60 {
+    height: 60vh !important;
+}
+
 .bg {
     background-size: cover;
     background-position: center;
@@ -109,7 +117,7 @@ ul {
     left: 0;
     top: 0;
     background-color: #333;
-    opacity: 0.8;
+    opacity: 0.4;
     z-index: -1;
 }
 
@@ -184,14 +192,37 @@ ul {
 
 /* banner-content css */
 .banner-content {
-    width: 60%;
+    /* width: 60%;
     color: #fff;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    z-index: 999;
+    opacity: 1;
 }
 
-.text-40 {
-    font-size: 3rem;
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    html {
+        font-size: 55%;
+    }
 }

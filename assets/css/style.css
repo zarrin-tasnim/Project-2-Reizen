@@ -1,8 +1,59 @@
 /* Custom CSS */
+:root {
+    --theme-background-colour: #d4344f;
+    --text-color: #d4344f;
+
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #bbb;
+}
+
+h1 {
+    font-size: 3.9rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 0.9rem;
+}
+
+a {
+    text-decoration: none;
+    transition: .3s;
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style: none;
 }
 
 .fix::before,
@@ -21,7 +72,7 @@
 }
 
 .mb-30 {
-    /* my wrk*/
+
     margin-bottom: 30px;
 }
 
@@ -31,7 +82,7 @@
 
 /* color css */
 .color-pink {
-    background-color: #E9204F;
+    background-color: var(--theme-background-colour);
     color: #fff;
 }
 
@@ -63,11 +114,72 @@
 }
 
 /* header css */
+
+
+.up-info {
+    background-color: var(--theme-background-colour);
+    height: 4rem;
+    font-size: 1.5rem;
+}
+
 .header-area.header-fix {
     position: absolute;
     z-index: 999;
     left: 0;
     right: 0;
+}
+
+.navbar {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.nav-item > a,
+.nav-item > a:hover {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.search-icon {
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.login-btn {
+    color: #fff;
+    border: .1rem solid var(--text-color);
+    margin: 0 1rem;
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+    position: relative;
+}
+
+.login-btn:hover {
+    border-color: var(--text-color);
+    color: #fff;
+}
+
+.login-btn::before {
+    content: "";
+    position: absolute;
+    width: 1.2rem;
+    height: .1rem;
+    background-color: #fff;
+    right: 2.4rem;
+    top: -.2rem;
+}
+
+.login-btn::after {
+    content: "";
+    position: absolute;
+    width: 1.2rem;
+    height: .1rem;
+    background-color: #fff;
+    left: 2.4rem;
+    bottom: -.2rem;
 }
 
 /* banner-content css */

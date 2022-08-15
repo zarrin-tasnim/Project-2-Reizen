@@ -1,0 +1,85 @@
+/* Custom CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fix::before,
+.fix::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.mb-30 {
+    /* my wrk*/
+    margin-bottom: 30px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+/* color css */
+.color-pink {
+    background-color: #E9204F;
+    color: #fff;
+}
+
+.text-pink {
+    color: #E9204F;
+}
+
+.h-100 {
+    height: 80vh !important;
+}
+
+.bg {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+}
+
+.bg::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #333;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+/* header css */
+.header-area.header-fix {
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    right: 0;
+}
+
+/* banner-content css */
+.banner-content {
+    width: 60%;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-40 {
+    font-size: 3rem;
+}

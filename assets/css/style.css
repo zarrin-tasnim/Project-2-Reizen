@@ -131,7 +131,6 @@ ul {
 }
 
 .header-area.header-fix {
-    position: absolute;
     z-index: 999;
     left: 0;
     right: 0;
@@ -143,8 +142,8 @@ ul {
     display: flex;
 }
 
-.nav-item > a,
-.nav-item > a:hover {
+.nav-item>a,
+.nav-item>a:hover {
     color: #fff;
     font-size: 1.4rem;
 }
@@ -202,6 +201,54 @@ ul {
     opacity: 1;
 }
 
+
+/* About CSS */
+.row {
+    margin-bottom: 400px;
+}
+
+.div1 {
+    position: relative;
+    margin-bottom: 400px;
+}
+
+.div2 {
+    position: relative;
+    margin-bottom: 400px;
+    margin-top: 200px;
+}
+
+.div3 {
+    position: relative;
+    margin-bottom: 400px;
+    margin-top: 200px;
+}
+
+.about-image {
+    position: absolute;
+    z-index: 23;
+    right: 400px;
+    top: 0;
+    width: 600px;
+    height: 300px;
+}
+
+.about-image img {
+    width: 500px;
+    height: 300px;
+
+}
+
+.about-content {
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    left: 600px;
+    top: 20;
+    z-index: -1;
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     html {

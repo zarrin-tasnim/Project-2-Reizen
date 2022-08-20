@@ -21,7 +21,6 @@ body {
 
 html {
     font-size: 72.5%;
-    scroll-behavior: smooth;
 }
 
 img {
@@ -261,6 +260,7 @@ ul {
     cursor: pointer;
     padding-right: 7rem;
 }
+
 
 /* banner-content css */
 .banner-content {

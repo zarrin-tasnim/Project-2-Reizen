@@ -322,7 +322,21 @@ ul {
     z-index: -1;
 }
 
+/* Service CSS */
+.Service-area h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+}
 
+.Service-area h2 {
+    font-size: 3.8rem;
+    font-weight: bolder;
+}
+
+.Service-area p {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
 
 
 /* footer css */

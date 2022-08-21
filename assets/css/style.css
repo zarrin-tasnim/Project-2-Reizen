@@ -22,6 +22,8 @@ body {
 html {
     font-size: 72.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    height: 100vh;
 }
 
 img {
@@ -67,6 +69,7 @@ a {
 
 ul {
     list-style: none;
+
 }
 
 .fix::before,
@@ -157,6 +160,7 @@ ul {
     font-size: 1.4rem;
 }
 
+/* munni */
 .search-icon {
     font-size: 1.5rem;
     align-items: center;
@@ -403,21 +407,33 @@ h4.footer-heading:after {
     border: none;
 }
 
+/* service css */
+
+
+
+/* Blog CSS */
+
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     html {
         font-size: 82.5%;
+    }
+
+    .Service-area h2 {
+        font-size: 2.8rem;
+        font-weight: bolder;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     html {
-        font-size: 100%;
+        font-size: 72%;
     }
 }
 
 @media only screen and (max-width: 767px) {
     html {
-        font-size: 100%;
+        font-size: 70%;
     }
 }
 
@@ -425,4 +441,11 @@ h4.footer-heading:after {
     html {
         font-size: 55%;
     }
+
+    .Service-area h2,
+    {
+    font-size: 20%;
+
 }
+}
+

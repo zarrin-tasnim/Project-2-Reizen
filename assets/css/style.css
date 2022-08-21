@@ -21,6 +21,7 @@ body {
 
 html {
     font-size: 72.5%;
+    overflow-x: hidden;
 }
 
 img {
@@ -274,6 +275,15 @@ ul {
     opacity: 1;
 }
 
+.banner-content h2 {
+    font-size: 3.8rem;
+    font-weight: bolder;
+}
+
+.section-title h1 {
+    font-size: 3.8rem;
+    font-weight: bolder;
+}
 
 /* About CSS */
 .row {
@@ -395,7 +405,7 @@ h4.footer-heading:after {
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     html {
-        font-size: 100%;
+        font-size: 82.5%;
     }
 }
 

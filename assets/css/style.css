@@ -314,7 +314,7 @@ ul {
 .about-image {
     position: absolute;
     z-index: 23;
-    right: 400px;
+    right: 500px;
     top: 0;
     width: 600px;
 }
@@ -334,6 +334,7 @@ ul {
     left: 600px;
     top: 20;
     z-index: -1;
+    margin-left: 80px;
 }
 
 /* Service CSS */
@@ -352,6 +353,30 @@ ul {
     font-weight: bolder;
 }
 
+th {
+    color: #E9204F;
+}
+
+#black-bg {
+    background-color: #000;
+    color: #83BB91;
+}
+
+#white-bg{
+    background-color: #fff;
+        color: #000;
+}
+
+/* Blog CSS */
+.single-blog {
+    border: 2px solid red;
+    border-top-left-radius: 50px 10px;
+}
+
+.single-blog img {
+    border: 2px solid rgb(11, 207, 70);
+    border-top-left-radius: 50px 10px;
+}
 
 /* footer css */
 footer {
@@ -405,46 +430,4 @@ h4.footer-heading:after {
     font-size: 1.4rem;
     outline: none;
     border: none;
-}
-
-/* service css */
-
-
-
-/* Blog CSS */
-
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-    html {
-        font-size: 82.5%;
-    }
-
-    .Service-area h2 {
-        font-size: 2.8rem;
-        font-weight: bolder;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    html {
-        font-size: 72%;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    html {
-        font-size: 70%;
-    }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    html {
-        font-size: 55%;
-    }
-
-    .Service-area h2,
-    {
-    font-size: 20%;
-
-}
 }

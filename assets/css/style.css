@@ -314,7 +314,7 @@ ul {
 .about-image {
     position: absolute;
     z-index: 23;
-    right: 500px;
+    right: 400px;
     top: 0;
     width: 600px;
 }
@@ -331,7 +331,7 @@ ul {
     width: 500px;
     height: 350px;
     position: absolute;
-    left: 600px;
+    left: 500px;
     top: 20;
     z-index: -1;
     margin-left: 80px;
@@ -362,9 +362,9 @@ th {
     color: #83BB91;
 }
 
-#white-bg{
+#white-bg {
     background-color: #fff;
-        color: #000;
+    color: #000;
 }
 
 /* Blog CSS */

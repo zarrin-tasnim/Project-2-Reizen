@@ -14,6 +14,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@400;500;600;700&display=swap');
 
+
 body {
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Arima', cursive;
@@ -290,7 +291,7 @@ ul {
 }
 
 /* About CSS */
-.row {
+.row1 {
     margin-bottom: 400px;
 }
 
@@ -381,6 +382,7 @@ th {
 /* footer css */
 footer {
     background-color: #dcdde1;
+
 }
 
 .footer-text {

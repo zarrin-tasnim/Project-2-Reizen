@@ -27,6 +27,14 @@ html {
     height: 100vh;
 }
 
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 img {
     max-width: 100%;
     vertical-align: middle;
@@ -336,6 +344,10 @@ ul {
     top: 20;
     z-index: -1;
     margin-left: 80px;
+}
+
+.about-content p {
+    margin-left: 60px;
 }
 
 /* Service CSS */

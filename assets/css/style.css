@@ -380,15 +380,20 @@ th {
     color: #000;
 }
 
+
 /* Blog CSS */
-.single-blog {
-    border: 2px solid red;
-    border-top-left-radius: 50px 10px;
+.single-blog img {
+    height: 300px;
 }
 
 .single-blog img {
     border: 2px solid rgb(11, 207, 70);
     border-top-left-radius: 50px 10px;
+}
+
+.btn-readMore {
+    margin-left: 35%;
+    
 }
 
 /* footer css */

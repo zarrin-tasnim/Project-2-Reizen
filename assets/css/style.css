@@ -398,17 +398,17 @@ th {
 
 }
 
-/* .single-blog-list:before {
+.single-blog-list:before {
     content: "";
     position: absolute;
     width: 0;
     height: 6px;
     background-color: #c51717;
     left: 0;
-    top: -1px;
+    top: 7px;
     transition: .3s;
-    border-top-left-radius: 50px 30px;
-} */
+    border-top-left-radius: 55px 30px;
+}
 
 .single-blog-list:after {
     content: "";
@@ -421,13 +421,18 @@ th {
     transition: .3s;
 }
 
-/* .single-blog-list:hover:before {
-    width: 50%;
-} */
+.single-blog-list:hover:before {
+    width: 4px;
+    height: 50%;
+}
 
 .single-blog-list:hover:after {
     width: 50%;
 }
+
+
+
+
 
 /* footer css */
 footer {

@@ -350,7 +350,25 @@ ul {
     margin-left: 60px;
 }
  */
+.about-new-content {
+    position: relative;
+}
 
+.title-design::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #c51717;
+    left: 50%;
+    top: -20px;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+}
+
+/* .about-content:hover:before {
+    width: 50%;
+} */
 
 /* Service CSS */
 .Service-area h1 {

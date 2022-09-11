@@ -299,7 +299,7 @@ ul {
 }
 
 /* About CSS */
-.row1 {
+/* .row1 {
     margin-bottom: 400px;
 }
 
@@ -349,6 +349,8 @@ ul {
 .about-content p {
     margin-left: 60px;
 }
+ */
+
 
 /* Service CSS */
 .Service-area h1 {
@@ -393,7 +395,38 @@ th {
 
 .btn-readMore {
     margin-left: 35%;
-    
+
+}
+
+/* .single-blog-list:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 6px;
+    background-color: #c51717;
+    left: 0;
+    top: -1px;
+    transition: .3s;
+    border-top-left-radius: 50px 30px;
+} */
+
+.single-blog-list:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 6px;
+    background-color: #1fc410;
+    right: -1.5px;
+    bottom: 0;
+    transition: .3s;
+}
+
+/* .single-blog-list:hover:before {
+    width: 50%;
+} */
+
+.single-blog-list:hover:after {
+    width: 50%;
 }
 
 /* footer css */

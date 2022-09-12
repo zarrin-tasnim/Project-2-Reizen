@@ -369,6 +369,16 @@ ul {
 /* .about-content:hover:before {
     width: 50%;
 } */
+.aboutUs-title-design {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.about-content {
+    position: relative;
+}
+
+
 
 /* Service CSS */
 .Service-area h1 {

@@ -380,6 +380,8 @@ ul {
 
 
 
+
+
 /* Service CSS */
 .Service-area h1 {
     font-size: 5rem;
@@ -409,6 +411,8 @@ th {
     background-color: #fff;
     color: #000;
 }
+
+
 
 
 /* Blog CSS */
@@ -461,6 +465,11 @@ th {
 
 
 
+/* Gallary style */
+.gallaryImages img {
+    width: 30px;
+    height: 300px;
+}
 
 /* footer css */
 footer {
